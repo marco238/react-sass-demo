@@ -1,5 +1,5 @@
 import React from "react";
-import "./Albums.scss";
+import "./Albums.css";
 import logo from '../../logo.svg';
 
 const albums = [

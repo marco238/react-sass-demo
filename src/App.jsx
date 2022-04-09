@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './views/home/Home';
 import Albums from './views/albums/Albums';
