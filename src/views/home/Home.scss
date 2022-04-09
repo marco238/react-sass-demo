@@ -1,7 +1,7 @@
 @import 'src/_variables';
 
 #home {
-  height: calc(80% - 60px);
+  height: calc(100% - $navbar-height);
   display: flex;
   justify-content: center;
   align-items: center;
