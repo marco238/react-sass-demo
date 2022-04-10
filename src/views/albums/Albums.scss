@@ -1,4 +1,6 @@
-#albums {
+@import 'src/_variables';
+
+.albums {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -8,7 +10,7 @@
   .card {
     width: 300px;
     min-height: 350px;
-    background-color: #fff;
+    background-color: $white-color;
     border-radius: 4px;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.068);
     padding: 10px;
@@ -31,7 +33,7 @@
 }
 
 @media only screen and (max-width: 480px)  {
-  #albums {
+  .albums {
     padding: 50px 20px;
   }
 }

@@ -43,7 +43,7 @@ const albums = [
 
 export default function Albums() {
   return (
-    <div id="albums">
+    <div className="albums">
       {albums.map(album => (
         <div className="card" key={album.id}>
           <div>
